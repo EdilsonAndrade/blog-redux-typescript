@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders banner correctly 1`] = `
+<div
+  className="sc-bdfBQB dnmJyo"
+>
+  <h1>
+    PodVisory Blog
+  </h1>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdfBQB dnmJyo"
+>
+  <h1>
+    PodVisory Blog
+  </h1>
+</div>
+`;
