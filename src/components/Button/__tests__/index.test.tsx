@@ -1,8 +1,8 @@
-import { render } from '@testing-library/react'
+import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import Button from '../'
+import Button from '../';
 
-describe('[BUTTON', () => {
+describe('[Button Component', () => {
     const buttonAction = jest.fn();
     const button = <Button
         onClick={buttonAction}
@@ -18,7 +18,7 @@ describe('[BUTTON', () => {
     it("should render with CLICK HERE text", () => {
         const { getByText } = render(button);
 
-        expect(getByText("CLICK HERE")).toBeInTheDocument()
+        expect(getByText("CLICK HERE")).toBeInTheDocument();
     });
 
     it('should execute button event click', () => {

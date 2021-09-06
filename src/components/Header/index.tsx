@@ -12,9 +12,9 @@ const Header: React.FC = () => (
       </nav>
       <img src={Logo} alt="logo" />
       <DivAvatar id="rightSide">
-        <input type="text" placeholder="Search on Blog" />
-        <img src={Avatar} alt="avatar" />
-        <ButtonTweet>Tweet</ButtonTweet>
+        <input data-testid="search" type="text" placeholder="Search on Blog" />
+        <img data-testid="avatar" src={Avatar} alt="avatar" />
+        <ButtonTweet data-testid="tweet">Tweet</ButtonTweet>
       </DivAvatar>
     </DivContent>
   </Container>

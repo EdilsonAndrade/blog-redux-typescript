@@ -1,14 +1,12 @@
 import { render } from '@testing-library/react';
 import Header from '../';
 
-describe("[Header]", () => {
+describe("[Header Component]", () => {
     it("should render header with menu", () => {
-        const { getByText } = render(<Header />)
+        const { getByTestId } = render(<Header />);
 
-        expect(getByText("Tweet")).toBeInTheDocument();
-        expect(getByText("Notifications")).toBeInTheDocument();
-        expect(getByText("Home")).toBeInTheDocument();
-        expect(getByText("Messages")).toBeInTheDocument();
-
+        expect(getByTestId("tweet")).toBeInTheDocument();
+        expect(getByTestId("avatar")).toBeInTheDocument();
+        expect(getByTestId("search")).toBeInTheDocument();
     })
 })

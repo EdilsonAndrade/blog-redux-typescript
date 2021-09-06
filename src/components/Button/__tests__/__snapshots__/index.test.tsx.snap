@@ -1,9 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[BUTTON renders button correctly 1`] = `
+exports[`[Button Component renders button correctly 1`] = `
 <button
   aria-label="button"
   className="sc-bdfBQB kxKqVW"
+  data-testid="button"
   disabled={false}
   onClick={[Function]}
 />

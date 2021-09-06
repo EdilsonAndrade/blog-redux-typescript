@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`[Banner Component] renders banner correctly 1`] = `
+<div
+  className="sc-bdfBQB dnmJyo"
+>
+  <h1>
+    PodVisory Blog
+  </h1>
+</div>
+`;
+
 exports[`renders banner correctly 1`] = `
 <div
   className="sc-bdfBQB dnmJyo"
