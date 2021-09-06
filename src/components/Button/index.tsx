@@ -6,7 +6,12 @@ interface IButtonProps {
   onClick(): void;
 }
 const Button: React.FC<IButtonProps> = ({ disabled, onClick, children }) => (
-  <Container data-testid="button" aria-label="button" disabled={disabled} onClick={onClick}>
+  <Container
+    data-testid="button"
+    aria-label="button"
+    disabled={disabled}
+    onClick={onClick}
+  >
     {children}
   </Container>
 );
