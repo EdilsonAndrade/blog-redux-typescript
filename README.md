@@ -25,7 +25,9 @@
 - User is able to add and delete a comment in a post
 
 ### How to run
-
+```js
+yarn
+```
 ```js
 yarn start
 ```
