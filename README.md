@@ -1,5 +1,8 @@
 # Social Blog
 
+
+![alt text](https://github.com/EdilsonAndrade/blog-redux-typescript/blob/master/demoimage.png?raw=true)
+
 ### Technologies that are involved
 
 - ReactJS
